@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+<h1 align="center">React Bill Split</h1>
+<p align="center">
+    <img src="public/favicon.ico" alt="Logo" width="15%" height="auto">
+ </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="" target="_blank">
+    <img alt="Demo" src="https://img.shields.io/badge/demo-offline-red.svg" />
+  </a>
+  <a href="https://github.com/ShaAnder/react_bill_split#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/ShaAnder/react_bill_split/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg" />
+  </a>
+  <a href="https://github.com/ShaAnder/react_bill_split/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
 
-## Available Scripts
+</p>
 
-In the project directory, you can run:
+<p align="left">
+Small react based project to showcase and reinforce what has been learnt so far, in it's core form it's a bill splitting and
+tracking app, users can opt to split bills and then they can track who owes for the next meal ect.
+</p>
 
-### `npm start`
+## APP Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This app utilizes several features that would typically be found in a list app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- A sidebar ui element to keep track of your friends, tallys their current owed / owes amounts
+- An add freind element to add more friends to the mix!
+- A main ui element that allows users to split a bill with each other, amount is input and whoever
+  pays then can add the amount owed to the user they are eating with.
 
-### `npm test`
+## Languages / Modules / APIs Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- JavaScript
+- CSS3
+- HTML5
+- React
+- NodeJS
 
-### `npm run build`
+<p align="center">
+  <img alt="React Pizza App" src="public\image.png" width="50%" />
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation Guide
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+First clone this repo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+git clone https://github.com/ShaAnder/react_bill_split.git
+```
 
-### `npm run eject`
+NPM install to get the dependancies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Use npm start to start the local server / test the app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Summary
 
-## Learn More
+This app was a reinforcement project, a way to showcase and reinforce what has been learnt so far in the course
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pretty much we have covered a lot of topic such as:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- List based components
+- State and multiple state management
+- global vs local state
+- state uplifting
+- derived state
+- Form components
+- How to create and delete components inside components
+- thinking in react
+- child props
 
-### Code Splitting
+and more
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## TO DO
 
-### Analyzing the Bundle Size
+Work is already underway to create a user backend and scale this app up!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+ShaAnder [LinkedIn](https://www.linkedin.com/in/shaun-anderton-551670a9/) | [Twitter](https://twitter.com/ShaAnder10) | [Github](https://github.com/ShaAnder)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Credits
 
-### Advanced Configuration
+This app was created as part of [Jonas Smechmann](https://twitter.com/jonasschmedtman)'s Udemy course [The Ultimate React course 2023](https://www.udemy.com/course/the-ultimate-react-course).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
+This project is [MIT](https://github.com/ShaAnder/react-bill-split/blob/main/LICENSE) licensed.
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
