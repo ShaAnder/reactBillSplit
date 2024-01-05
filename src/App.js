@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 
-import Friend from "./components/Friend";
 import FriendsList from "./components/FriendsList";
 
 import FormAddFriend from "./components/FormAddFriend";
